@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:minHeight="48dp">
+    <com.nhaarman.listviewanimations.itemmanipulation.dragdrop.GripView android:layout_height="match_parent" android:layout_width="wrap_content" android:paddingTop="4dp" android:paddingRight="8dp" android:paddingLeft="8dp" android:paddingBottom="4dp" android:color="@android:color/darker_gray" android:id="@+id/list_row_draganddrop_touchview"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/list_row_draganddrop_textview" android:textSize="40sp" android:textColor="?android:attr/textColorSecondary" android:minHeight="48dp" android:gravity="center_vertical" android:fontFamily="sans-serif-light"/>
+
+
+</LinearLayout>
